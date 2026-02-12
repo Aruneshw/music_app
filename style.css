@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+      display: grid;
+    place-items: center;
+  
+}
+.one{
+    background-color: rgba(237, 255, 255, 0.239);
+     width: 350px;
+     height: 700px;
+     border-radius: 5%;
+     border-top: white;
+     margin-top: 100px;
+     position: relative;
+     box-shadow: 0px 5px 5px white;
+     border: 8px solid #ffffff22;
+     border-top: 1px solid black;
+     cursor: pointer;
+     
+}
+.two{
+    color: snow;
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+
+
+    
+
+}
+.icon{
+    scale: 30%;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    bottom: 55px;
+    left: 30px;
+    opacity: 70%;
+
+}
+.dot{
+    scale: 6%;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    opacity: 70%;
+    bottom: 60px;
+    left:280px ;
+
+}
+.song img{
+    scale:50%;
+    position: relative;
+    right: 30px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 25px white;
+    right: 70px;
+    bottom: 70px;
+    z-index: 1;
+    
+    
+}
+.timeline img{
+    scale: 80%;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+    text-align: center;
+    bottom: 270px;
+    box-shadow: 0px 0px 0px ;
+    z-index: 2;
+
+}
+.play {
+    position: absolute;
+    bottom: 80px;       /* adjust this value */
+    left: 50%;
+    transform: translateX(-50% );
+}
+
+.play img {
+    width: 60px;
+}
+.forward{
+    position: absolute;
+    bottom: 80px;
+    left: 80%;
+    transform: translateX(-50%);
+}
+.forward img{
+    width:60px;
+}
+.backward{
+    position: absolute;
+    bottom: 80px;
+    left: 20%;
+    transform: translate(-50%);
+}
+.backward img{
+    width: 60px;
+}
+.name{
+    position: absolute;
+    padding-left: 55px;
+    bottom: 35%;
+    z-index: 3;
+}
+
+
+
+
